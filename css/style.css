@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 13px;
+}
+
+body {
+    font-size: 1em;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+a {
+    color: rgba(0, 0, 0, .87)
+}
+
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+#googleApps:hover {
+    color: grey;
+}
+
+.black {
+    background-color: #000;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+main {
+    height: 80vh;
+    width: 100%;
+}
+
+.img-responsive {
+    height: 92px;
+    width: 278px;
+}
+
+.image-logo {
+    padding-top: 140px;
+}
+
+.search-box {
+    margin-top: 25px;
+    width: 580px;
+    height: 45px;
+    border-radius: 25px 25px;
+    border: .5px solid rgba(187, 181, 181, 0.6);
+}
+
+.btn {
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    cursor: pointer;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+
+footer {
+    color: grey;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 30px;
+}
+
+.top-footer {
+    font-size: 15px;
+    border-bottom: #5F6368;
+}
